@@ -44,7 +44,7 @@ def ficha():
     print(f"Email valido: {'@' in email}")
     dominio_email=(email.find('@')+1)
     print(f"Dominio: {email[dominio_email::].lower()}")
-    print(f"Nombre para archivo: {nombre.replace(" ", "_").title()}")
+    print(f"Nombre para archivo: {nombre.replace(' ', '_').title()}")
     print(f"Cantidad de a: {nombre.count('a')}")
     print(f"Codigo secreto: {nombre[-1::-1].upper()}")
     print(f"Nota 1: {nota_1}")
