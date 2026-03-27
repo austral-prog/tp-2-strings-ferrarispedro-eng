@@ -9,7 +9,7 @@ def string_info():
     print(f"Primera letra: {palabra[0]}")
     print(f"Ultima letra: {palabra[-1]}")
     print(f"Repetida: {palabra*3}")
-    print(f"Decorada: {"*"*3}{palabra}{"*"*3}")
+    print(f"Decorada: {'*'*3}{palabra}{'*'*3}")
 
 
 #string_info()
